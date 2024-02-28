@@ -1,18 +1,17 @@
 import { createGlobalStyle } from "styled-components";
 
-const GlobalStyle = createGlobalStyle`
-    * {
+export default createGlobalStyle`
+    *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         outline: none;
         text-decoration: none;
-        font-family: "Montserrat", sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
 
-    body {
+    body{
         background: #000000;
     }
-`;
 
-export default GlobalStyle;
+`;
